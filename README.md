@@ -8,7 +8,7 @@ To restore units, multiply the data products here by the appropriate dimensionfu
 - density: \rho_s (8e6 M_\odot kpc^{-3}) (directory names specify value of \rho_s)
 - velocity: sqrt{4\pi G_N \rho_s r_s^2} (4.4e2 km s^{-1})
 - energy/phi: velocity^2 (1.9e5 (km s^{-1})^2)
-- velocity distribution, f(E): velocity^{3/2}\rho_s^{-1} (1.1e-3 (km s^{-1})^{3/2}M_\odot^{-1} kpc^3)
+- velocity distribution, f(E): velocity^{-3/2}\rho_s (9.0e2 (km s^{-1})^{-3/2}M_\odot kpc^{-3})
 - J_factor: 2\rho_s^2 r_s (velocity / c)^{n} (2.7e15 (1.5e-3)^n/2 M_\odot^2 kpc^{-5})
 
 In each directory, there are four files:
